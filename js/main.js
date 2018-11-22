@@ -5,6 +5,9 @@ $(document).ready(function() {
 	if (!localStorage.hasOwnProperty("feed")) {
 		getMatches();
 	}
+	else {
+		showMatches();
+	}
 
 	// If the date from the event and todays date are the same, display another message as to if the date was different
     function checkDate(eventStart) {
