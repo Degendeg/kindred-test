@@ -1,0 +1,152 @@
+@font-face {
+    font-family: matchingFontToDesign;
+    src: url(../fonts/hind-regular.ttf);
+}
+html {
+	overflow-x: hidden;
+	overflow-y: scroll;
+}
+body {
+	background: #333;
+	font-family: matchingFontToDesign;
+	font-size: 14px;
+	line-height: 20px;
+	margin: 0;
+	padding: 0
+}
+#container {
+	background-image: radial-gradient(#2f8e2c,#2e7423);
+	background-color: #2e7423;
+	text-align: center;
+}
+header {
+	width: 900px;
+	text-align: left;
+	margin: 0 auto;
+	padding: 20px 0;
+}
+nav {
+	background: #222;
+}
+nav ul {
+	width: 900px;
+	text-align: left;
+	margin: 0 auto;
+	padding: 0;
+	list-style: none;
+}
+nav ul li {
+	margin: 0;
+	padding: 12px 0 12px 4px;
+}
+nav ul li a {
+	color: #fff;
+	text-decoration: none;
+}
+#logo {
+	height: 33px;
+	background: url(../images/unibet-logo.png) no-repeat;
+	background-size: 200px 33px;
+	text-indent: -999em;
+}
+#live-matches {
+	background: #222222;
+	width: 615px;
+	height: 170px;
+	color: #fff;
+}
+.live-matches-date {
+	line-height: 45px;
+	color: #777759;
+}
+.live-matches-score {
+	line-height: 45px;
+	font-size: 24px;
+	color: #FEC800;
+}
+.live-matches-bet-btn {
+	cursor: pointer;
+}
+.live-matches-sport img {
+	vertical-align: middle;
+}
+.live-matches-bet-btn {
+  border-radius: 5px;
+  padding: 8px 16px;
+  font-size: 16px;
+  font-weight: bold;
+  text-decoration: none;
+  margin: 5px;
+  color: #fff;
+  position: relative;
+  display: inline-block;
+  background-color: #3AAA35;
+  outline: 0;
+  border: none;
+}
+#content {
+	width: 900px;
+	text-align: left;
+	margin: 16px auto;
+}
+article {
+	padding: 8px 16px 16px;
+	background: #fff;
+	border-radius: 4px;
+	overflow: hidden;
+}
+article h1 {
+	font-size: 22px;
+}
+article .preamble {
+	font-weight: bold;
+}
+article aside {
+	float: right;
+	width: 220px;
+	border-left: solid 1px #ccc;
+	margin-left: 8px;
+	padding: 0 0 8px 16px;
+}
+article aside h2 {
+	font-size: 15px;
+	margin: 4px 0;
+}
+article aside img {
+	width: 220px;
+}
+footer {
+	background: #333;
+	color: #999;
+}
+footer .inner {
+	width: 900px;
+	text-align: left;
+	margin: 0 auto;
+}
+footer .inner p {
+	padding: 16px 8px;
+}
+.loader {
+	margin-right: 10px;
+	margin-top: 10px;
+	border: 16px solid #f3f3f3;
+	border-radius: 50%;
+	border-top: 16px solid #3498db;
+	width: 25px;
+	height: 25px;
+	-webkit-animation: spin 2s linear infinite; /* Safari */
+	animation: spin 2s linear infinite;
+	float: right;
+}
+
+/* Safari */
+@-webkit-keyframes spin {
+	0% { -webkit-transform: rotate(0deg); }
+	100% { -webkit-transform: rotate(360deg); }
+}
+
+@keyframes spin {
+	0% { transform: rotate(0deg); }
+	100% { transform: rotate(360deg); }
+}
