@@ -54,7 +54,7 @@ $(document).ready(function() {
 				}
 				$('.live-matches-opponents').text(res.liveEvents[i].event.name);
 				$('.live-matches-date').text(checkDate(res.liveEvents[i].event.start));
-				$('.live-matches-bet-btn-href').attr("href", "https://www.unibet.com/betting#/event/live/" + res.liveEvents[i].event.id);
+				$('.live-matches-bet-btn-href').attr("href", "https://www.unibet.com/betting#event/" + res.liveEvents[i].event.id);
 				$('.live-matches-bet-btn').show();
 				$('.loader').hide();
 			}
